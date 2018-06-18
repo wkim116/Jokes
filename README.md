@@ -7,7 +7,7 @@ This repository is setup with everything it needs to talk to a local postgres da
 - Open Project in Spring Tool Suite
 - Either Run from STS or from the command line with `./mvnw spring-boot:run`
 - open http://localhost:8080 
-- You shuold see some sample jokes.
+- You should see some sample jokes.
 
 ## Complete and Satisfactory
 
