@@ -12,7 +12,7 @@ This repository is setup with everything it needs to talk to a local postgres da
 ## Complete and Satisfactory
 
 - In `src/main/resources/templates` modify the read.html to diplay the jokes in a table with columns that represent the joke, punchline, and rating.
-- Using your calculator and what you know about Spring MVC as inspiration, and create a new page that creates a new joke.
+- Using your calculator and what you know about Spring MVC as inspiration, Create a new page that creates a new joke.
 - If you succesfully created a new joke you should see it in the database as well as when viewing the read page at open http://localhost:8080
 
 ## Exceeds Expectations
