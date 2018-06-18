@@ -1,6 +1,8 @@
 # MVC Web Front-end for Jokes database
 This repository is setup with everything it needs to talk to a local postgres database. The "R" in "CRUD" is provided for you. You will need to finish the rest of the CRUD functions.
 
+**This will work with your existing jokes database**
+
 - Fork and then clone this repository
 - Open Project in Spring Tool Suite
 - Either Run from STS or from the command line with `./mvnw spring-boot:run`
