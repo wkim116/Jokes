@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Update a Joke</title>
+	</head>
+	<body>
+		<h1> Update Joke </h1>
+		{{#joke}}
+		<form method="post" action="/updateJoke">
+			<input type="hidden" name="id" value={{id}}>
+			<input type="text" name="newJoke" placeholder={{joke}}>
+			<input type="text" name="newPunchline" placeholder={{punchline}}>
+			<input type="number" name="newRating" placeholder={{rating}}>
+			<input type="submit" value="Update Joke">
+		</form>
+		{{/joke}}
+	</body>
+</html>

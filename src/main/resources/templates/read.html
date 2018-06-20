@@ -3,12 +3,31 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Jokes MVC CRUD App</title>
+		<link rel="stylesheet" type="text/css" href="joke.css">
 	</head>
 	<body>
 		
-		{{#jokes}}
-			{{joke}} - {{punchline}} - {{rating}} <br/>
-		{{/jokes}}
+		<table>
+		<tr>
+			<th>Joke</th>
+			<th>Punchline</th>
+			<th>Rating</th>
+			<th>Delete</th>
+			<th>Update</th>
+		</tr>
 		
+		{{#jokes}}
+			<tr>
+				<td> {{joke}}  </td> 
+				<td> {{punchline}} </td>
+				<td> {{rating}} </td>
+				<td> <a href="/deleteJoke?id={{id}}">Delete</a></td>
+				<td> <a href="/updateJoke?id={{id}}">Update</a></td>
+			</tr>
+		{{/jokes}}
+		</table>
+		
+		<a href="/newJoke">New Joke</a>
+
 	</body>
 </html>
